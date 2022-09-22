@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(description='image-dehazing')
 
 parser.add_argument('--model', required=True, help='training directory')
 parser.add_argument('--images', nargs='+', type=str, default='inputs', help='path to hazy folder')
-parser.add_argument('--outdir', default='outputs', help='data save directory')
+parser.add_argument('--outdir', default='results/', help='data save directory')
 parser.add_argument('--gpu', type=int, required=True, help='gpu index')
 
 args = parser.parse_args()
