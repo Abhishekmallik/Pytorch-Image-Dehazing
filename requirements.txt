@@ -4,5 +4,3 @@ tensorboardX
 torch==1.0.0
 Pillow==6.2.0
 torchvision==0.2.2
-
-
